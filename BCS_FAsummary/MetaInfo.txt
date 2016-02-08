@@ -8,7 +8,7 @@ Description: 'Performs a factor analysis on a subset of the data "decathlon" fro
 
 Keywords: 'factor, analysis, plot, decathlon, FactoMineR, plot'
 
-Author[New]: 'Anastasija Tetereva'
+Author: Anastasija Tetereva
 
 Submitted: '2016-01-28, Christoph Schult'
 

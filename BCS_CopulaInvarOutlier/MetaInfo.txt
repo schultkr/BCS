@@ -13,9 +13,10 @@ Description: 'Two random variables are created. One is normally distributed
 Keywords: 'distribution,correlation,extreme,value,multivariate,linear,
            approximation,uniform,transformation,normal,polynomial'
 
-Author: 'Ostap Okhrin'
+Author: Ostap Okhrin
 
 Submitted: '2016-01-28, Christoph Schult'
+
 
 Output: 'Two plots for the approximation of a uniformly distributed  rv by
          a normally distributed rv. One with no outlier and one with outlier.'

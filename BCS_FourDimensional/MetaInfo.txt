@@ -17,5 +17,6 @@ Author: 'Polina Marchenko'
 
 Submitted: '2016-01-28, Christoph Schult'
 
+
 Output: 'One plot for the dataset barley with time, variety and site as
          conditioning variables.'

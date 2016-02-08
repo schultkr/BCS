@@ -10,7 +10,7 @@ Description: 'Different lighted plots for three dimensional data. The data
 
 Keywords: 'rgl,lighted,plot,random normal,normal,3D,marbles'
 
-Author: 'Polina Marchenko'
+Author: Polina Marchenko
 
 Submitted: '2016-01-28, Christoph Schult'
 
