@@ -5,24 +5,23 @@
 
 ```yaml
 
-Name of Quantlet : BCS_LightedPlots
+Name of Quantlet: 'BCS_LightedPlots'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Different lighted plots for three dimensional data. The data is obtained by
-univariate random normal sampling. Light sources are then alternated for the different plots to
-show the effect on the appearance of the plot.'
+Description: 'Different lighted plots for three dimensional data. The data
+              is obtained by univariate random normal sampling. Light
+              sources are then alternated for the different plots to show the
+              effect on the appearance of the plot.'
 
-Keywords : rgl,lighted,plot,random normal,normal,3D,marbles
+Keywords: 'rgl,lighted,plot,random normal,normal,3D,marbles'
 
-See also :
+Author: Polina Marchenko
 
-Author : Polina Marchenko
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
 
-Output : Four plots for three dimensional data with different lighting.
-
+Output: 'Four plots for three dimensional data with different lighting.'
 ```
 
 ![Picture1](BCS_LightedPlots.png)

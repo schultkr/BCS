@@ -4,23 +4,21 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_PCAbiplot** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
+Name of Quantlet: 'BCS_PCAbiplot'
 
-Name of Quantlet : BCS_PCAbiplot
+Published in: 'Basic Elements of Computational Statistics'
 
-Published in : Basic Elements of Computational Statistics
+Keywords: 'normal, principal component analysis, banknotes, correlation, plot'
 
-Keywords : normal, principal component analysis, banknotes, correlation, plot
+Description: 'Perform normal principal component analysis (PCA) on the data "banknotes"
+              from package "ncomplete". Plot that correlation of the NPCs and the originial
+              variable including the unit circle in the plot for reference.'
 
-Description : 'Perform normal principal component analysis (PCA) on the data "banknotes" from
-package "ncomplete". Plot that correlation of the NPCs and the originial variable including the
-unit circle in the plot for reference.'
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
+Output: 'Plot of the correlation between NPC and original variable on a unit circle.'
 
-Output : Plot of the correlation between NPC and original variable on a unit circle.
-
-Author : [New] Johannes Haupt
-
+Author[New]: Johannes Haupt
 ```
 
 ![Picture1](BCS_PCAbiplot.png)

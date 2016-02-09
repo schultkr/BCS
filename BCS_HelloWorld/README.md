@@ -5,23 +5,20 @@
 
 ```yaml
 
-Name of Quantlet : BCS_HelloWorld
+Name of Quantlet: 'BCS_HelloWorld'
 
-Published in : Basic Computational Statistics
+Published in: 'Basic Computational Statistics'
 
-Description : 'A world map as an illustrative example how powerful R is. This plot is supposed to
-show new users an interesting application of R.'
+Description: 'A world map as an illustrative example how powerful R is. 
+	     This plot is supposed to show new users an interesting application of R.'
 
-Keywords : plot, worldmap, data, colorsheme, Hello World
+Keywords: 'plot, worldmap, data, colorsheme, Hello World'
 
-See also :
+Author[New]: Johannes, Haupt
 
-Author : [New] Johannes, Haupt
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
-
-Output : A world map in R.
-
+Output: 'A world map in R.'
 ```
 
 ![Picture1](BCS_HelloWorld.png)

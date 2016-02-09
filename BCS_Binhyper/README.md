@@ -5,26 +5,26 @@
 
 ```yaml
 
-Name of Quantlet : BCS_Binhyper
+Name of Quantlet:       'BCS_Binhyper'
+ 
+Published in:           'Basic Elements of Computational Statistics'
 
-Published in : Basic Elements of Computational Statistics
+Description:            'Two plots of the probability functions of the hypergeometric
+                         distribution (plotted as lines) vs. the binomial distribution (plotted as dots).
+                         The binomial distribution is a limiting form of the hypergeometric distribution,
+                         for sample sizes much smaller than population size. In that case, the binomial
+                         distribution can be used to approximate the hypergeometric distribution.'
 
-Description : 'Two plots of the probability functions of the hypergeometric distribution (plotted
-as lines) vs. the binomial distribution (plotted as dots). The binomial distribution is a limiting
-form of the hypergeometric distribution, for sample sizes much smaller than population size. In
-that case, the binomial distribution can be used to approximate the hypergeometric distribution.'
+Keywords:               'approximation, binomial, distribution, plot, visualization'
 
-Keywords : approximation, binomial, distribution, plot, visualization
+See also:               BCS_Bincdf, BCS_Binhist, BCS_Binompdf
 
-See also : BCS_Bincdf, BCS_Binhist, BCS_Binompdf
+Author[New]:            Johannes Haupt
 
-Author : [New] Johannes Haupt
+Submitted:              '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
-
-Output : 'Graphic of probability functions of the hypergeometric (lines) vs. binomial distribution
-(dots)'
-
+Output:                 'Graphic of probability functions of the hypergeometric (lines) vs.
+                         binomial distribution (dots)'
 ```
 
 ![Picture1](BCS_Binhyper.png)

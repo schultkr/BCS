@@ -5,24 +5,24 @@
 
 ```yaml
 
-Name of Quantlet : BCS_SceneSelection
+Name of Quantlet: 'BCS_SceneSelection'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Three dimensional interactive plot for five spheres with coordiantes and radii
-obtained by random sampling. It is possible to interactively select different scenes of the plot.'
+Description: 'Three dimensional interactive plot for five spheres with
+              coordiantes and radii obtained by random sampling. It is
+              possible to interactively select different scenes of the plot.'
 
-Keywords : 'rgl,three dimensional,plot,three dimensional plot,scene selection, selection,
-interactive'
+Keywords: 'rgl,three dimensional,plot,three dimensional plot,scene selection,
+           selection, interactive'
 
-See also :
+Author: Polina Marchenko
 
-Author : Polina Marchenko
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
 
-Output : One three dimensional plot for five spheres with the possibility to select scenes.
-
+Output: 'One three dimensional plot for five spheres with the possibility to
+         select scenes.'
 ```
 
 ![Picture1](BCS_SceneSelection.png)

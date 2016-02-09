@@ -5,25 +5,25 @@
 
 ```yaml
 
-Name of Quantlet : BCS_NonParametricRegressions
+Name of Quantlet: 'BCS_NonParametricRegressions'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Multiple nonparametric regressions for DAX log-returns on FTSE log-returns. They
-show how different nonparametric regressions predict the same simulated data.'
+Description: 'Multiple nonparametric regressions for DAX log-returns on FTSE
+              log-returns. They show how different nonparametric regressions
+              predict the same simulated data.'
 
-Keywords : 'splines,regression,DAX,FTSE,log-returns,estimation,plot, nonparametric,univariate
-nonparametric regression, lambda,different lambdas'
+Keywords: 'splines,regression,DAX,FTSE,log-returns,estimation,plot,
+           nonparametric,univariate nonparametric regression,
+           lambda,different lambdas'
 
-See also :
+Author[New]: Christoph Schult
 
-Author : [New] Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
 
-Output : 'One plot for multiple nonparametric regressions of the DAX log-returns on FTSE
-log-returns.'
-
+Output: 'One plot for multiple nonparametric regressions of the DAX log-returns
+         on FTSE log-returns.'
 ```
 
 ![Picture1](BCS_NonParametricRegressions.png)

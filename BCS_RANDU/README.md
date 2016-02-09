@@ -5,24 +5,22 @@
 
 ```yaml
 
-Name of Quantlet : BCS_RANDU
+Name of Quantlet: 'BCS_RANDU'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Implementation of the RANDU random number generator developed by IBM in the 1960s.
-It is a Linear Congruential Generator procedure. This generator has some cearly non-random
-characteristics, due to badly chosen starting values. '
+Description: 'Implementation of the RANDU random number generator developed
+              by IBM in the 1960s. It is a Linear Congruential Generator procedure.
+              This generator has some cearly non-random characteristics, due to badly
+              chosen starting values.'
 
-Keywords : IBM, random number, generation, linear congruential generator, starting
+Keywords: 'IBM, random number, generation, linear congruential generator, starting'
 
-Author : [New] Martin Schelisch
+Author[New]: Martin Schelisch
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Input : none
-
-Output : A vector of random numbers with less than ideal random characteristics
-
+Output: 'A vector of random numbers with less than ideal random characteristics'
 ```
 
 
@@ -30,9 +28,9 @@ Output : A vector of random numbers with less than ideal random characteristics
 # set a seed here or inside the RANDU function seed = 1
 
 # Implementation of the RANDU generator (with seed=1)
-RANDU <- function(n, seed = 1) {
+RANDU = function(n, seed = 1) {
     # predefine constants
-    U <- NULL
+    U = NULL
     a = 2^16 + 3
     m = 2^31
     for (i in 1:n) {

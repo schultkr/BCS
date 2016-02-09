@@ -5,22 +5,21 @@
 
 ```yaml
 
-Name of Quantlet : BCS_CAComplete
+Name of Quantlet: 'BCS_CAComplete'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Performs a cluster anlalysis on the data "agriculture" from package "cluster" using
-the Ward algorithm. The result is depicted in a dendrogram with the optimal clusters highlighted by
-red boxes.'
+Description: 'Performs a cluster anlalysis on the data "agriculture" from
+              package "cluster" using the Ward algorithm. The result is depicted in a
+              dendrogram with the optimal clusters highlighted by red boxes.'
 
-Keywords : BCS_CAmethods
+Keywords: 'cluster, analysis, agriculture, dendogram, cluster anylsis, plot'
 
-Author : [New] Anastasija Tetereva
+Author[New]: Anastasija Tetereva
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Output : Plot of a dendrogram
-
+Output: 'Plot of a dendrogram'
 ```
 
 ![Picture1](BCS_CAComplete.png)

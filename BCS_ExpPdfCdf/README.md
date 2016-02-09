@@ -5,25 +5,29 @@
 
 ```yaml
 
-Name of Quantlet : BCS_ExpPdfCdf
+Name of Quantlet: 'BCS_ExpPdfCdf'
 
-Published in : Basic Computational Statistics
+Published in: 'Basic Computational Statistics'
 
-Description : 'The exponential distribution only works for positive random variables. The normal
-and logisitc distribution are special cases of the exponential distribution. Lambda defines the
-steepness of the pdfs.'
+Description: 'The exponential distribution only works for positive random
+              variables. The normal and logisitc distribution are special
+              cases of the exponential distribution. Lambda defines the
+              steepness of the pdfs.'
 
-Keywords : continuous,logit,univariate,distribution,exponential,pdf, cdf,normal,poisson
+Keywords: 'continuous,logit,univariate,distribution,exponential,pdf,
+           cdf,normal,poisson'
 
-See also : 'BCS_StablePdfCdf, BCS_ChiPdfCdf, BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,
-BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf'
+See also: 'BCS_StablePdfCdf, BCS_ChiPdfCdf,
+           BCS_StablePdfCdfSpecial, BCS_CauchyPdfCdf,
+           BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf'
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Output : Plots pdfs and cdfs for the exponential distribution with different lambdas.
 
+Output: 'Plots pdfs and cdfs for the exponential distribution with different
+         lambdas.'
 ```
 
 ![Picture1](BCS_ExpPdfCdf.png)

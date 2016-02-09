@@ -5,24 +5,23 @@
 
 ```yaml
 
-Name of Quantlet : BCS_Rosenbrock
+Name of Quantlet: 'BCS_Rosenbrock'
 
-Published in : Basic Computational Statistics
+Published in: 'Basic Computational Statistics'
 
-Description : 'A 3d plot for the Rosenbrock function: z = 100*(y - x^2)^2 + (1 - y)^2. The minimum
-(1, 1) is found by the Nelder Mead method.'
+Description: 'A 3d plot for the Rosenbrock function:
+              z = 100*(y - x^2)^2 + (1 - y)^2.
+              The minimum (1, 1) is found by the Nelder Mead method.'
 
-Keywords : 'Numerical optimization,optimization,3D,plot,multivariate, bivariate,BCS,numerical
-methods,Rosenbrock,Nelder Mead method'
+Keywords: 'Numerical optimization,optimization,3D,plot,multivariate,
+           bivariate,BCS,numerical methods,Rosenbrock,Nelder Mead method'
 
-See also :
+Author[New]: Christoph, Schult
 
-Author : [New] Christoph, Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
 
-Output : A 3d plot of the Rosenbrock function.
-
+Output: 'A 3d plot of the Rosenbrock function.'
 ```
 
 ![Picture1](BCS_Rosenbrock.png)

@@ -5,23 +5,24 @@
 
 ```yaml
 
-Name of Quantlet : BCS_Bincdf
+Name of Quantlet:        'BCS_Bincdf'
 
-Published in : Basic Elements of Computational Statistics
+Published in:            'Basic Elements of Computational Statistics'
+   
+Description:             'Graphic of the binomial cumulative distribution function
+                          with observations n = 10 and two different probabilities for the event,
+                          p = 0.2 (black) and p = 0.6 (red).'
+ 
+Keywords:                'binomial, cdf, distribution, plot, visualization'
 
-Description : 'Graphic of the binomial cumulative distribution function with observations n = 10
-and two different probabilities for the event, p = 0.2 (black) and p = 0.6 (red).'
+See also:                BCS_Binhist, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf
 
-Keywords : binomial, cdf, distribution, plot, visualization
+Author[New]:             Johannes Haupt
+         
 
-See also : BCS_Binhist, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf
+Submitted:               '2016-01-28, Christoph Schult'
 
-Author[New] : Johannes Haupt
-
-Submitted : 2016-01-28, Christoph Schult
-
-Output : Graphic of the binomial cdf with n = 10, p = 0.2 (black) and p = 0.6 (red)
-
+Output:                  'Graphic of the binomial cdf with n = 10, p = 0.2 (black) and p = 0.6 (red)'
 ```
 
 ![Picture1](BCS_Bincdf.png)

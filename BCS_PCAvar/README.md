@@ -4,20 +4,20 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_PCAvar** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
+Name of Quantlet: BCS_PCAvar
 
-Name of Quantlet : BCS_PCAvar
+Published in: 'Basic Elements of Computational Statistics'
 
-Published in : Basic Elements of Computational Statistics
+Author[New]: Johannes Haupt
 
-Author : [New] Johannes Haupt
+Description: 'Analysis of principal component analysis (PCA) in order 
+              to identify the efficient number of principal components.
+              The first three PCs are plotted against each other. 
+              Another plot shows the cumulative percentage variance against the number of components.'
 
-Description : 'Analysis of principal component analysis (PCA) in order to identify the efficient
-number of principal components. The first three PCs are plotted against each other. Another plot
-shows the cumulative percentage variance against the number of components.'
+Keywords: 'dimension-reduction, pca, plot, principal-components, visualization'
 
-Keywords : dimension-reduction, pca, plot, principal-components, visualization
-
-Submitted : 2016.02.06 Christoph Schult
+Submitted: '2016.02.06 Christoph Schult'
 
 ```
 

@@ -5,24 +5,25 @@
 
 ```yaml
 
-Name of Quantlet : BCS_ChiPdf
+Name of Quantlet: 'BCS_ChiPdf'
 
-Published in : Basic Computational Statistics
+Published in: 'Basic Computational Statistics'
 
-Description : 'The Chi-squared distribution has two special pdfs. If the degrees of freedom are
-equal to one, the mean is undefined and the vertical axis is an asymptote. If the degrees of
-freedom are equal to two the pdf steadily decreases from 0.5.'
+Description: 'The Chi-squared distribution has two special pdfs. If the
+              degrees of freedom are equal to one, the mean is undefined
+              and the vertical axis is an asymptote. If the degrees of
+              freedom are equal to two the pdf steadily decreases from 0.5.'
 
-Keywords : distribution,chisquare,pdf,continuous,univariate,cauchy
+Keywords: 'distribution,chisquare,pdf,continuous,univariate,cauchy'
 
-See also : BCS_ChiPdfCdf, BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf
+See also: BCS_ChiPdfCdf, BCS_FPdfCdf, BCS_NormPdfCdf, BCS_tPdfCdf
 
-Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
+Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Output : Plots pdf for two special cases of the chisquare distribution.
 
+Output: 'Plots pdf for two special cases of the chisquare distribution.'
 ```
 
 ![Picture1](BCS_ChiPdf.png)

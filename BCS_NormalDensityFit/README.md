@@ -5,23 +5,23 @@
 
 ```yaml
 
-Name of Quantlet : BCS_BivariateRegression
+Name of Quantlet: 'BCS_NormalDensityFit'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Histogram for the height of trees from the trees package. It is possible to display
-density estimates for the height based on a assumed normal distribuion and estimated density.'
+Description: 'Histogram for the height of trees from the trees package.
+              It is possible to display density estimates for the height
+              based on a assumed normal distribuion and estimated density.'
 
-Keywords : rpanel,density estimation,histogram,density,plot
+Keywords: 'rpanel,density estimation,histogram,density,plot'
 
-See also :
+Author: Polina Marchenko
 
-Author : Polina Marchenko
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
 
-Output : An interactive histogram with denisty estimation for the height of trees.
-
+Output: 'An interactive histogram with denisty estimation for the height of
+         trees.'
 ```
 
 ![Picture1](BCS_NormalDensityFit.png)

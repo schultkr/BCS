@@ -5,23 +5,20 @@
 
 ```yaml
 
-Name of Quantlet : BCS_linreg
+Name of Quantlet: 'BCS_linreg'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Plot of two variables from the R example dataset longley (GNP, employed) including a
-regression line (OLS) and grid.'
+Description: 'Plot of two variables from the R example dataset longley
+              (GNP, employed) including a regression line (OLS) and grid.'
 
-Keywords : plot, visualization, regression, linear, univariate
+Keywords: 'plot, visualization, regression, linear, univariate'
 
-See also :
+Author[New]: Benjamin
 
-Author : [New] Benjamin
+Submitted: '2016-01-28, Christoph Schult'
 
-Submitted : 2016-01-28, Christoph Schult
-
-Output : Plot of regression in .pdf format.
-
+Output: 'Plot of regression in .pdf format.'
 ```
 
 ![Picture1](BCS_linreg.png)

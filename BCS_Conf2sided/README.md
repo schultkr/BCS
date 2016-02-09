@@ -5,24 +5,24 @@
 
 ```yaml
 
-Name of Quantlet : BCS_Conf2Sided
+Name of Quantlet: 'BCS_Conf2Sided'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Graphic of a normal distribution N(0,1), also called standard normal distribution,
-with a two-tailed (1-alpha)-confidence interval. It is sometimes called Gauss, after the
-mathematician, or Bell curve, after its shape.'
+Description: 'Graphic of a normal distribution N(0,1), also called standard
+              normal distribution, with a two-tailed (1-alpha)-confidence interval.
+              It is sometimes called Gauss, after the mathematician, or Bell curve, after
+              its shape.'
 
-Keywords : normal distribution, visualization, testing, confidence interval, plot
+Keywords: 'normal distribution, visualization, testing, confidence interval, plot'
 
-See also : BCS_ecdf
+See also: 'BCS_ecdf'
 
-Author : [New]Gunawan
+Author[New]: Gunawan
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Output : Plot of a normal distribution function in .pdf format.
-
+Output: 'Plot of a normal distribution function in .pdf format.'
 ```
 
 ![Picture1](BCS_Conf2sided.png)

@@ -5,30 +5,33 @@
 
 ```yaml
 
-Name of Quantlet : BCS_claytonMC
+Name of Quantlet: 'BCS_claytonMC'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Plots two pseudo random variables with (1.) uniform distribution and (2.) N(0,1)
-distribution with clayton (theta=0.79) dependence structure.'
+Description: 'Plots two pseudo random variables with (1.) uniform distribution
+              and (2.) N(0,1) distribution with clayton (theta=0.79)
+              dependence structure.'
 
-Keywords : random number generation, uniform, Clayton, copula, uniform distribution, plot
+Keywords: 'random number generation, uniform, Clayton, copula, uniform distribution, plot'
 
-See also : 'SFEClayGumbGauss, SFEclaytonMC, SFEclaytonSIM2pvt, SFEdynCop, SFEestGARCH, SFEfrechet,
-SFEgausscop, SFEgumbelSIM2ptv, SFEplotCop, SFEresDens, SFEstaticCop, SFEtcop, SFEtMC'
+See also: 'SFEClayGumbGauss, SFEclaytonMC, SFEclaytonSIM2pvt, SFEdynCop,
+           SFEestGARCH, SFEfrechet, SFEgausscop, SFEgumbelSIM2ptv,
+           SFEplotCop, SFEresDens, SFEstaticCop, SFEtcop, SFEtMC'
 
-Author : Ostap Okhrin
+Author: Ostap Okhrin
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Inputs : theta - dependence parameter
+Inputs: 'theta - dependence parameter'
 
-Output : 'Monte Carlo sample of 10.000 realizations of pseudo random variable with uniform
-marginals in [0,1] and with standard normal marginals with dependence structure in both cases given
-by Clayton copula.'
+Output: 'Monte Carlo sample of 10.000 realizations of pseudo random
+         variable with uniform marginals in [0,1] and with standard
+         normal marginals with dependence structure in both cases given
+         by Clayton copula.'
 
-Example : Example is produced for theta = 0.79 and normal and uniform marginal distributions.
-
+Example: 'Example is produced for theta = 0.79 and normal and uniform
+          marginal distributions.'
 ```
 
 ![Picture1](BCS_claytonMC.png)
@@ -48,17 +51,17 @@ library(lattice)
 theta = 1  #Set theta [0,1]
 
 # variables uniformly distributed:
-uniclayMVD <- mvdc(claytonCopula(theta), margins = c("unif", "unif"), paramMargins = list(list(min = 0, max = 1), list(min = 0, 
+uniclayMVD = mvdc(claytonCopula(theta), margins = c("unif", "unif"), paramMargins = list(list(min = 0, max = 1), list(min = 0, 
     max = 1)))
-uniclay <- rMvdc(uniclayMVD, n = 10000)
+uniclay = rMvdc(uniclayMVD, n = 10000)
 
 plot(uniclay, xlab = "", ylab = "", pch = 19, main = "Uniform")
 
 
 # variables standard normally distributed:
-normclayMVD <- mvdc(claytonCopula(theta), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1), list(mean = 0, 
+normclayMVD = mvdc(claytonCopula(theta), margins = c("norm", "norm"), paramMargins = list(list(mean = 0, sd = 1), list(mean = 0, 
     sd = 1)))
-normclay <- rMvdc(normclayMVD, n = 10000)
+normclay = rMvdc(normclayMVD, n = 10000)
 
 plot(normclay, xlab = "", ylab = "", pch = 19, main = "Normal")
 ```

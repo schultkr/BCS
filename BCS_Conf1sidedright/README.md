@@ -5,23 +5,23 @@
 
 ```yaml
 
-Name of Quantlet : BCS_Conf1Sidedright
+Name of Quantlet: 'BCS_Conf1Sidedright'
 
-Published in : Basic Elements of Computational Statistics
+Published in: 'Basic Elements of Computational Statistics'
 
-Description : 'Graphic of a normal distribution N(0,1) with a left-tailed (1-alpha)-confidence
-interval'
+Description: 'Graphic of a normal distribution N(0,1) with a left-tailed
+              (1-alpha)-confidence interval'
 
-Keywords : normal distribution, visualization, testing, confidence interval, plot
+Keywords: 'normal distribution, visualization, testing,
+            confidence interval, plot'
 
-See also : BCSnorm1.r, BCSnorm2.r
+See also: BCS_Conf1Sidedleft, BCS_Conf2Sided
 
-Author : [New] Gunawan
+Author[New]: Gunawan
 
-Submitted : 2016-01-28, Christoph Schult
+Submitted: '2016-01-28, Christoph Schult'
 
-Output : Graphic of a normal distribution function in .pdf format.
-
+Output: 'Graphic of a normal distribution function in .pdf format.'
 ```
 
 ![Picture1](BCS_Conf1sidedright.png)
