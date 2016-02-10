@@ -5,28 +5,26 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_ChiNormApprox'
+Name of Quantlet : BCS_ChiNormApprox
 
-Published in: 'Basic Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'A chi-squared distributed random variable is the sum of
-              independent standard normally distributed rv. Histograms for
-              continuous variables just estimate the pdf of the rv.
-              As the degrees of freedom increase the empirical density (histogram)
-              converges to the normal distribution.'
+Description : 'A chi-squared distributed random variable is the sum of independent standard
+normally distributed rv. Histograms for continuous variables just estimate the pdf of the rv. As
+the degrees of freedom increase the empirical density (histogram) converges to the normal
+distribution.'
 
-Keywords: 'distribution,chisquare,pdf,approximation,univariate,normal,
-           asymptotic,standard,continuous,histogram'
+Keywords : 'distribution,chisquare,pdf,approximation,univariate,normal,
+asymptotic,standard,continuous,histogram'
 
-See also: BCS_tQQplots, BCS_ChiPdfCdf, BCS_tPdfCdf
+See also : BCS_tQQplots, BCS_ChiPdfCdf, BCS_tPdfCdf
 
-Author: 'Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir'
+Author : Ivan Vasylchenko, Benjamin Samulowski, Noa Tamir
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
+Output : Plots histogramms for a chi-squared and normal distributed rv for different sample sizes.
 
-Output: 'Plots histogramms for a chi-squared and normal distributed rv
-         for different sample sizes.'
 ```
 
 ![Picture1](BCS_ChiNormApprox.png)

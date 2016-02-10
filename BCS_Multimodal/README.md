@@ -5,29 +5,24 @@
 
 ```yaml
 
-Name of Quantlet:         'BCS_Multimodal'
- 
-Published in:             'Basic Computational Statistics'
- 
-Description:              'A 3d plot for the function: 
-                           z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y)
-                           + 0.01*sin(x)*sin(2*y) + 0.09*sin(2*x)*sin(2*xy).
-                           All maxima are depicted by blue points and all minima by red
-                           points. The function is used to illstrate algotithms in R to
-                           find roots of multivariate functions. Here the BFGS method is
-                           used to find the optima.'
+Name of Quantlet : BCS_Multimodal
 
-Keywords:                 'root finding,3D,plot,multivariate,root,bivariate,numerical,
-                           methods,BFGS'
+Published in : Basic Elements of Computational Statistics
 
-Author[New]:              Christoph, Schult
+Description : 'A 3d plot for the function: z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y) +
+0.01*sin(x)*sin(2*y) + 0.09*sin(2*x)*sin(2*xy). All maxima are depicted by blue points and all
+minima by red points. The function is used to illstrate algotithms in R to find roots of
+multivariate functions. Here the BFGS method is used to find the optima.'
 
-Submitted:                '2016-01-28, Christoph Schult'
+Keywords : root finding,3D,plot,multivariate,root,bivariate,numerical, methods,BFGS
 
-Output:                   'A 3d surface plot of the function: 
-                           z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y) + 0.01*sin(x)*sin(2*y)
-                           + 0.09*sin(2*x)*sin(2*xy)
-                           and its extrema.'
+Author[New] : Christoph, Schult
+
+Submitted : 2016-01-28, Christoph Schult
+
+Output : 'A 3d surface plot of the function: z = 0.03*sin(x)*sin(y) - 0.05*sin(2*x)*sin(y) +
+0.01*sin(x)*sin(2*y) + 0.09*sin(2*x)*sin(2*xy) and its extrema.'
+
 ```
 
 ![Picture1](BCS_Multimodal.png)

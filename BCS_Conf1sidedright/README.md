@@ -1,27 +1,27 @@
 
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="880" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
 
-## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Conf1Sidedright** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
+## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_Conf1sidedright** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
 
-Name of Quantlet: 'BCS_Conf1Sidedright'
+Name of Quantlet : BCS_Conf1sidedright
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'Graphic of a normal distribution N(0,1) with a left-tailed
-              (1-alpha)-confidence interval'
+Description : 'Graphic of a normal distribution N(0,1) with a left-tailed (1-alpha)-confidence
+interval'
 
-Keywords: 'normal distribution, visualization, testing,
-            confidence interval, plot'
+Keywords : normal distribution, visualization, testing, confidence interval, plot
 
-See also: BCS_Conf1Sidedleft, BCS_Conf2Sided
+See also : BCS_Conf1Sidedleft, BCS_Conf2Sided
 
-Author[New]: Gunawan
+Author[New] : Gunawan
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
-Output: 'Graphic of a normal distribution function in .pdf format.'
+Output : Graphic of a normal distribution function in .pdf format.
+
 ```
 
 ![Picture1](BCS_Conf1sidedright.png)

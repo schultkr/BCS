@@ -5,23 +5,23 @@
 
 ```yaml
 
-Name of Quantlet:     'BCS_Binhist'
-   
-Published in:         'Basic Elements of Computational Statistics'
- 
-Description:          'Probability Mass Function of the binomial distribution with
-                       number of trials n = 10 and probability of success p = 0.2'
- 
-Keywords:             'binomial, discrete, distribution, plot, visualization'
+Name of Quantlet : BCS_Binhist
 
-See also:             'BCS_Bincdf, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf, 
-                       BCS_Binpois'
+Published in : Basic Elements of Computational Statistics
 
-Author[New]:          ' Johannes Haupt'
+Description : 'Probability Mass Function of the binomial distribution with number of trials n = 10
+and probability of success p = 0.2'
 
-Submitted:            '2016-01-28, Christoph Schult'
+Keywords : binomial, discrete, distribution, plot, visualization
 
-Output:               'Diagram of the probability mass function.'
+See also : BCS_Bincdf, BCS_Binhyper, BCS_Binnorm, BCS_Binompdf, BCS_Binpdf, BCS_Binpois
+
+Author[New] : Johannes Haupt
+
+Submitted : 2016-01-28, Christoph Schult
+
+Output : Diagram of the probability mass function.
+
 ```
 
 ![Picture1](BCS_Binhist.png)

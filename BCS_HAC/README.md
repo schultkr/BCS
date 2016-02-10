@@ -5,30 +5,25 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_HAC'
+Name of Quantlet : BCS_HAC
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'The HAC package is used to create a random sample. The
-              distribution is created iteratively. First the bivariate
-              marginal distribution is created for the variables, which have
-              a higher correlation. In the second step the bivariate marginal
-              distribution is stacked together with the remaining variable.
-              The actual observations are obtained, by using the quantile
-              function of the respective marginal distribution. The
-              trivariate distribution is plotted in a three dimensional
-              scatterplot with its bivariate marginal distributions.'
+Description : 'The HAC package is used to create a random sample. The distribution is created
+iteratively. First the bivariate marginal distribution is created for the variables, which have a
+higher correlation. In the second step the bivariate marginal distribution is stacked together with
+the remaining variable. The actual observations are obtained, by using the quantile function of the
+respective marginal distribution. The trivariate distribution is plotted in a three dimensional
+scatterplot with its bivariate marginal distributions.'
 
-Keywords: 'multivariate,copula,archimedean,uniform,gumbel,HAC,normal,
-           student,distribution,pdf,cdf'
+Keywords : multivariate,copula,archimedean,uniform,gumbel,HAC,normal, student,distribution,pdf,cdf
 
-Author: Ostap Okhrin
+Author : Ostap Okhrin
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
+Output : A 3d scatterplot for an HAC object with normally and t distributed margins.
 
-Output: 'A 3d scatterplot for an HAC object with normally and t distributed
-         margins.'
 ```
 
 ![Picture1](BCS_HAC.png)
@@ -66,4 +61,5 @@ graph$points3d(Y12, pch = 20, col = rgb(0.3, 0.75, 1))
 
 # plots the bivariate distribution of y2 and y3
 graph$points3d(Y23, pch = 20, col = rgb(0.3, 0.75, 1))
+
 ```

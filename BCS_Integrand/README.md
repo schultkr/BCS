@@ -5,28 +5,25 @@
 
 ```yaml
 
-Name of Quantlet:      'BCS_Integrand'
+Name of Quantlet : BCS_Integrand
 
-Published in:          'Basic Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description:           'A 3d plot for the function z = (1/3) * x^3 * (1/4) * y^4,
-                        which is the integral of its first derivative with respect to
-                        both function arguments. Both arguments are in the interval
-                        [0, 1]. The function wireframe included in the lattice package
-                        is used.'
+Description : 'A 3d plot for the function z = (1/3) * x^3 * (1/4) * y^4, which is the integral of
+its first derivative with respect to both function arguments. Both arguments are in the interval
+[0, 1]. The function wireframe included in the lattice package is used.'
 
-Keywords:              'Numerical integration,Integration,3D,plot,multivariate,
-                        bivariate,BCS,numerical methods'
- 
-See also:              'BCS_BinormalDensity, BCS_NormalProbability, BCS_NormalCopula,
-                        BCS_ConditionalGroupedDensity'
+Keywords : Numerical integration,Integration,3D,plot,multivariate, bivariate,BCS,numerical methods
 
-Author[New]:            Christoph, Schult
+See also : 'BCS_BinormalDensity, BCS_NormalProbability, BCS_NormalCopula,
+BCS_ConditionalGroupedDensity'
 
-Submitted:             '2016-01-28, Christoph Schult'
+Author[New] : Christoph, Schult
 
+Submitted : 2016-01-28, Christoph Schult
 
-Output:                'A 3d plot of the function z = (1/3) * x^3 * (1/4) * y^4.'
+Output : A 3d plot of the function z = (1/3) * x^3 * (1/4) * y^4.
+
 ```
 
 ![Picture1](BCS_Integrand.png)

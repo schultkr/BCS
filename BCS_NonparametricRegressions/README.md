@@ -1,29 +1,27 @@
 
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="880" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
 
-## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NonParametricRegressions** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
+## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_NonparametricRegressions** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
 
-Name of Quantlet: 'BCS_NonParametricRegressions'
+Name of Quantlet : BCS_NonparametricRegressions
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'Multiple nonparametric regressions for DAX log-returns on FTSE
-              log-returns. They show how different nonparametric regressions
-              predict the same simulated data.'
+Description : 'Multiple nonparametric regressions for DAX log-returns on FTSE log-returns. They
+show how different nonparametric regressions predict the same simulated data.'
 
-Keywords: 'splines,regression,DAX,FTSE,log-returns,estimation,plot,
-           nonparametric,univariate nonparametric regression,
-           lambda,different lambdas'
+Keywords : 'splines,regression,DAX,FTSE,log-returns,estimation,plot, nonparametric,univariate
+nonparametric regression, lambda,different lambdas'
 
-Author[New]: Christoph Schult
+Author[New] : Christoph Schult
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
+Output : 'One plot for multiple nonparametric regressions of the DAX log-returns on FTSE
+log-returns.'
 
-Output: 'One plot for multiple nonparametric regressions of the DAX log-returns
-         on FTSE log-returns.'
 ```
 
 ![Picture1](BCS_NonParametricRegressions.png)

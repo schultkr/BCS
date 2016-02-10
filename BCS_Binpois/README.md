@@ -5,24 +5,25 @@
 
 ```yaml
 
-Name of Quantlet:        'BCS_Binpois'
+Name of Quantlet : BCS_Binpois
 
-Published in:            'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description:             'Graphic of the probability mass function of the poission distribution vs.
-                          binomial distribution. The binomial is given by bars, while the binomial distr.
-                          is plotted as dots. It can be seen that the poisson as well as the binomial
-                          distribution closely approache the binomial distribution for the specified values.'
+Description : 'Graphic of the probability mass function of the poission distribution vs. binomial
+distribution. The binomial is given by bars, while the binomial distr. is plotted as dots. It can
+be seen that the poisson as well as the binomial distribution closely approache the binomial
+distribution for the specified values.'
 
-Keywords:                'approximation, binomial, distribution, plot, poisson, visualization'
+Keywords : approximation, binomial, distribution, plot, poisson, visualization
 
-See also:                BCS_Binhist, BCS_Binnorm, BCS_Binompdf, BCS_Poispdf
+See also : BCS_Binhist, BCS_Binnorm, BCS_Binompdf, BCS_Poispdf
 
-Author[New]:             Johannes Haupt
-  
-Submitted:               '2016-01-28, Christoph Schult'
+Author[New] : Johannes Haupt
 
-Output:                  'Graphic of a binomial and a poisson distribution that approach the normal distribution'
+Submitted : 2016-01-28, Christoph Schult
+
+Output : Graphic of a binomial and a poisson distribution that approach the normal distribution
+
 ```
 
 ![Picture1](BCS_Binpois.png)

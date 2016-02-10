@@ -5,30 +5,37 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_NormalCopula'
+Name of Quantlet : BCS_NormalCopula
 
-Published in: 'Basic Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'A bivariate normal distribution is created by the function
-              normalCopula.The normalCopula function creates copula objects
-              and also computes joint densities and probabilities. Both rv
-              have a correlation of 0.7. The first plot is a standard
-              scatterplot of the two variables. A contour and three dimensional
-              scatterplot illustrate the cdf of the two variables. The last
-              two plots depict the density functions for the rvs.
-              One can observe the elliptical shape of the contour lines.'
+Description : 'A bivariate normal distribution is created by the function normalCopula.The
+normalCopula function creates copula objects and also computes joint densities and probabilities.
+Both rv have a correlation of 0.7. The first plot is a standard scatterplot of the two variables. A
+contour and three dimensional scatterplot illustrate the cdf of the two variables. The last two
+plots depict the density functions for the rvs. One can observe the elliptical shape of the contour
+lines.'
 
-Keywords: 'multivariate,distribution,copula,gaussian,normal,density,
-           correlation,pdf,cdf,contour,scatterplot'
+Keywords : 'multivariate,distribution,copula,gaussian,normal,density,
+correlation,pdf,cdf,contour,scatterplot'
 
-Author: Ostap Okhrin
+Author : Ostap Okhrin
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
-Output: 'Five plots for a binormal distribution constructed by normalCopula.'
+Output : Five plots for a binormal distribution constructed by normalCopula.
+
 ```
 
-![Picture1](BCS_NormalCopula.png)
+![Picture1](BCS_NormalCopula1.png)
+
+![Picture2](BCS_NormalCopula2.png)
+
+![Picture3](BCS_NormalCopula3.png)
+
+![Picture4](BCS_NormalCopula4.png)
+
+![Picture5](BCS_NormalCopula5.png)
 
 
 ```r
@@ -53,4 +60,5 @@ persp(norm.2d.cop, dCopula, xlab = "x", ylab = "y", zlab = "f(x,y)")
 
 # isodensity lines for the two rv
 contour(norm.2d.cop, dCopula, cex.axis = 1.5, cex.lab = 1.5, xlab = "x", ylab = "y")
+
 ```

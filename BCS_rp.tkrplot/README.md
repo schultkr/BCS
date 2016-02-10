@@ -5,26 +5,26 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_rp.tkrplot'
+Name of Quantlet : BCS_rp.tkrplot
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'The rpanel package employs different graphical user interface (GUI) controls
-              to enable the immediate communication with the graphical output and provides
-              dynamic graphics. The rp.tkrplot function uses the tkrplot package and
-              enables to place a plot and its control panel in a single window. In this
-              example a density plot with a control for altering the bandwidth is drawn.'
+Description : 'The rpanel package employs different graphical user interface (GUI) controls to
+enable the immediate communication with the graphical output and provides dynamic graphics. The
+rp.tkrplot function uses the tkrplot package and enables to place a plot and its control panel in a
+single window. In this example a density plot with a control for altering the bandwidth is drawn.'
 
-Keywords: 'rpanel,tkrplot,density,plot,bandwidth'
+Keywords : rpanel,tkrplot,density,plot,bandwidth
 
-See also: 'BCS_ControlDensityEstimate BCS_HistogramBoxplotOption BCS_UnivariateRegression
-           BCS_BivariateRegression BCS_NormalDensityFit'
+See also : 'BCS_ControlDensityEstimate BCS_HistogramBoxplotOption BCS_UnivariateRegression
+BCS_BivariateRegression BCS_NormalDensityFit'
 
-Author: 'Polina Marchenko'
+Author : Polina Marchenko
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
-Output: 'Density plot with bandwidth control widget'
+Output : Density plot with bandwidth control widget
+
 ```
 
 ![Picture1](BCS_rp.tkrplot.png)
@@ -59,4 +59,5 @@ if (interactive()) {
     
     rp.doublebutton(rpplot, sp, 1.03, log = T, range = c(r/50, NA), title = "Bandwidth", action = redraw)  # call the function redraw if widget is used
 }
+
 ```

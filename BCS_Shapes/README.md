@@ -5,24 +5,23 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_Shapes'
+Name of Quantlet : BCS_Shapes
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'This code shows how to create different shapes with random
-              numbers in R. Six different objects are created with six
-              different functions. Each function uses variables as
-              coordinates for the shapes created.'
+Description : 'This code shows how to create different shapes with random numbers in R. Six
+different objects are created with six different functions. Each function uses variables as
+coordinates for the shapes created.'
 
-Keywords: 'points,lines,linestrips,triangles,plot,quads,spheres,random,
-           normal,random numbers,3D,trellis,lattice,rgl'
+Keywords : 'points,lines,linestrips,triangles,plot,quads,spheres,random, normal,random
+numbers,3D,trellis,lattice,rgl'
 
-Author: Polina Marchenko
+Author : Polina Marchenko
 
-Submitted: '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
+Output : Six plots for random variables creating specific geometric shapes.
 
-Output: 'Six plots for random variables creating specific geometric shapes.'
 ```
 
 ![Picture1](LineStrips3D.png)
@@ -74,4 +73,5 @@ aspect3d(1, 1, 1)
 # Spheres
 
 Spheres = rgl.spheres(x = 1, y = 3, z = 3, radius = 1, col = "red3", smooth = T)
+
 ```

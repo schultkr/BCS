@@ -5,20 +5,21 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_hist1'
-Published in: 'Basic Elements of Computational Statistics'
+Name of Quantlet : BCS_hist1
 
-Description: 'Histogram with default choice of grids based on R example data
-              nhtemp. Histograms are commonly used to visualize data frequencies of
-              continous variables.'
+Published in : Basic Elements of Computational Statistics
 
-Keywords:    'histogram, graphical, visualization, frequencies, data, grid'
+Description : 'Histogram with default choice of grids based on R example data nhtemp. Histograms
+are commonly used to visualize data frequencies of continous variables.'
 
-Author[New]: Gunawan
+Keywords : histogram, graphical, visualization, frequencies, data, grid
 
-Submitted: '2016-01-28, Christoph Schult'
+Author[New] : Gunawan
 
-Output: 'Histogram of nhtemp in .pdf format.'
+Submitted : 2016-01-28, Christoph Schult
+
+Output : Histogram of nhtemp in .pdf format.
+
 ```
 
 ![Picture1](BCS_hist1.png)

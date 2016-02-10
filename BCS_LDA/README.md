@@ -4,22 +4,23 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_LDA** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
-Name of Quantlet: 'BCS_LDA'
 
-Published in: 'Basic Elements of Computational Statistics'
+Name of Quantlet : BCS_LDA
 
-Description: 'Example of Linear Discriminant analysis using the data
-              "spanish" and "spanishMeta" from package "LanguageR". The data is randomly
-              split into a training and test set beforehand. The observations and discrimiation
-              borders are shown in a plot and the prediction error is calculated.'
-              
-Keywords: 'linear, discriminant, analysis, linear discrimination, prediction, random'
+Published in : Basic Elements of Computational Statistics
 
-Submitted: '2016-01-28, Christoph Schult'
+Description : 'Example of Linear Discriminant analysis using the data "spanish" and "spanishMeta"
+from package "LanguageR". The data is randomly split into a training and test set beforehand. The
+observations and discrimiation borders are shown in a plot and the prediction error is calculated.'
 
-Author[New]: Johannes Haupt
+Keywords : linear, discriminant, analysis, linear discrimination, prediction, random
 
-Output: 'Plot of observations and discrimination borders.'
+Submitted : 2016-01-28, Christoph Schult
+
+Author[New] : Johannes Haupt
+
+Output : Plot of observations and discrimination borders.
+
 ```
 
 ![Picture1](BCS_LDA.png)

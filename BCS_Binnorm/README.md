@@ -5,25 +5,25 @@
 
 ```yaml
 
-Name of Quantlet:        'BCS_Binnorm'
- 
-Published in:            'Basic Elements of Computational Statistics'
+Name of Quantlet : BCS_Binnorm
 
-Description:             'Graphic of the Probability Mass Function of a binomial distribution vs.
-                          normal distribution. The binomial is given by bars, while the normal distr.
-                          is plotted as a red line. It can be seen that the binomial closely approaches
-                          the normal distribution for the specified values.'
+Published in : Basic Elements of Computational Statistics
 
-Keywords:                'approximation, binomial, normal, normal approximation, normal-distribution, plot, visualization'
+Description : 'Graphic of the Probability Mass Function of a binomial distribution vs. normal
+distribution. The binomial is given by bars, while the normal distr. is plotted as a red line. It
+can be seen that the binomial closely approaches the normal distribution for the specified values.'
 
-See also:                'BCS_Bincdf, BCS_Binhist, BCS_Binompdf, BCS_Binpois, BCS_NormPdfCdf'
+Keywords : 'approximation, binomial, normal, normal approximation, normal-distribution, plot,
+visualization'
 
-Author[New]:              Johannes Haupt
+See also : BCS_Bincdf, BCS_Binhist, BCS_Binompdf, BCS_Binpois, BCS_NormPdfCdf
 
-Submitted:               '2016-01-28, Christoph Schult'
+Author[New] : Johannes Haupt
 
-Output:                  'Graphic of the Probability Mass Function of binomial distribution vs.
-                          normal distribution'
+Submitted : 2016-01-28, Christoph Schult
+
+Output : Graphic of the Probability Mass Function of binomial distribution vs. normal distribution
+
 ```
 
 ![Picture1](BCS_Binnorm.png)

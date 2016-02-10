@@ -5,20 +5,21 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_SamplesDiagram'
+Name of Quantlet : BCS_SamplesDiagram
 
-Published in: 'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description: 'This plot shows how to use R to create your own diagrams.
-	      As an illustration the different sample types are displayed in a diagram.'
+Description : 'This plot shows how to use R to create your own diagrams. As an illustration the
+different sample types are displayed in a diagram.'
 
-Keywords: 'samples, order, permutation, combinatorics, plot, diagram'
+Keywords : samples, order, permutation, combinatorics, plot, diagram
 
-Author[New]: Christoph Schult
+Author[New] : Christoph Schult
 
-Submitted: '2016-02-06, Christoph Schult'
+Submitted : 2016-02-06, Christoph Schult
 
-Output: 'Diagram for all sample categories.'
+Output : Diagram for all sample categories.
+
 ```
 
 ![Picture1](BCS_SamplesDiagram.png)
@@ -51,4 +52,5 @@ for (i in 1:nt) {
 for (i in 1:nr) {
     text(arrpos[i, 1] - 0, arrpos[i, 2] + 0.025, textarrow[i], cex = 1.5)
 }
+
 ```

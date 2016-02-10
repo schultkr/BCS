@@ -4,18 +4,21 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BCS_MDS** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
-Name of Quantlet: BCS_MDS
 
-Published in: 'Basic Elements of Computational Statistics'
+Name of Quantlet : BCS_MDS
 
-Description: 'Multidimensional Scaling is performed on a subset of the data "cars93" from
-              package "MASS". First, the subset is selected, then the MDS model is fitted
-              using Euclidean distance. The result is shown in a plot.'
-Author[New]:  Johannes Haupt
+Published in : Basic Elements of Computational Statistics
 
-Keywords:     'multidimensional, MASS, MDS, euclidean distance, plot'
+Description : 'Multidimensional Scaling is performed on a subset of the data "cars93" from package
+"MASS". First, the subset is selected, then the MDS model is fitted using Euclidean distance. The
+result is shown in a plot.'
 
-Submitted: '2016-01-28, Christoph Schult'
+Author[New] : Johannes Haupt
+
+Keywords : multidimensional, MASS, MDS, euclidean distance, plot
+
+Submitted : 2016-01-28, Christoph Schult
+
 ```
 
 ![Picture1](BCS_MDS.png)
@@ -37,4 +40,5 @@ plot(fit[, 1], fit[, 2], xlab = "x", ylab = "y", type = "n")  # 3 plot the model
 segments(-1000, -0, 1500, 0, lty = "dotted")  # horizontal line
 segments(0, -500, 0, 500, lty = "dotted")  # vertical line
 text(fit[, 1], fit[, 2], rownames(mydata), cex = 0.8)  # add text to the plot
+
 ```

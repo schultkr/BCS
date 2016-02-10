@@ -5,28 +5,23 @@
 
 ```yaml
 
-Name of Quantlet:        'BCS_Newton'
+Name of Quantlet : BCS_Newton
 
-Published in:            'Basic Computational Statistics'
- 
-Description:             'The code produces an inteactive plot for the illustration of
-                          the Newton-Raphson method. In the example the univariate
-                          function f(x) = x^2 - 4 is optimized. An optimum is found, if
-                          the first derivative of the function at this point is equal
-                          to zero. Therefore the method looks for the root of the
-                          first derivative.'
+Published in : Basic Elements of Computational Statistics
 
-Keywords:                'numerical methods,BCS,approximation,root,Newton,univariate,
-                          scatterplot'
+Description : 'The code produces an inteactive plot for the illustration of the Newton-Raphson
+method. In the example the univariate function f(x) = x^2 - 4 is optimized. An optimum is found, if
+the first derivative of the function at this point is equal to zero. Therefore the method looks for
+the root of the first derivative.'
 
+Keywords : numerical methods,BCS,approximation,root,Newton,univariate, scatterplot
 
-Author:                  Yafei, Xu
+Author : Yafei, Xu
 
-Submitted:               '2016-01-28, Christoph Schult'
+Submitted : 2016-01-28, Christoph Schult
 
+Output : A scatterplot illustrating the Newton-Ramphsey method for the function f(x) = x^2 - 4.
 
-Output:                 'A scatterplot illustrating the Newton-Ramphsey method for the
-                         function f(x) = x^2 - 4.'
 ```
 
 ![Picture1](BCS_Newton.png)

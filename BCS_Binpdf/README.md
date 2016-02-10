@@ -5,25 +5,24 @@
 
 ```yaml
 
-Name of Quantlet:          'BCS_Binpdf'
+Name of Quantlet : BCS_Binpdf
 
-Published in:              'Basic Elements of Computational Statistics'
+Published in : Basic Elements of Computational Statistics
 
-Description:               'The binomial distribution is plotted for sample sizes 5, 10
-                            and 100 and probabilities 0.1, 0.5 and 0.9. The plots show nicely the shape
-                            of the pdf for the different values and show when it can likely be
-                            approximated by the normal distribution.'
-  
-Keywords:                  'approximation, binomial, distribution, graphical representation,
-                            pdf, visualization'
+Description : 'The binomial distribution is plotted for sample sizes 5, 10 and 100 and
+probabilities 0.1, 0.5 and 0.9. The plots show nicely the shape of the pdf for the different values
+and show when it can likely be approximated by the normal distribution.'
 
-See also:                  BCS_Bincdf, BCS_Binhist, BCS_Binompdf
+Keywords : approximation, binomial, distribution, graphical representation, pdf, visualization
 
-Author[New]:               Johannes Haupt
+See also : BCS_Bincdf, BCS_Binhist, BCS_Binompdf
 
-Submitted:                 '2016-01-28, Christoph Schult'
+Author[New] : Johannes Haupt
 
-Output:                    'BCS_Bincdf, BCS_Binhist, BCS_Binompdf'
+Submitted : 2016-01-28, Christoph Schult
+
+Output : BCS_Bincdf, BCS_Binhist, BCS_Binompdf
+
 ```
 
 ![Picture1](BCS_Binpdf.png)

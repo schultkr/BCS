@@ -5,30 +5,32 @@
 
 ```yaml
 
-Name of Quantlet: 'BCS_HelloWorld'
+Name of Quantlet : BCS_HelloWorld
 
-Published in: 'Basic Computational Statistics'
+Published in : Basic Computational Statistics
 
-Description: 'A world map as an illustrative example how powerful R is. 
-	     This plot is supposed to show new users an interesting application of R.'
+Description : 'A world map as an illustrative example how powerful R is. This plot is supposed to
+show new users an interesting application of R.'
 
-Keywords: 'plot, worldmap, data, colorsheme, Hello World'
+Keywords : plot, worldmap, data, colorsheme, Hello World
 
-Author[New]: Johannes, Haupt
+See also :
 
-Submitted: '2016-01-28, Christoph Schult'
+Author : Johannes, Haupt
 
-Output: 'A world map in R.'
+Submitted : 2016-01-28, Christoph Schult
+
+Output : A world map in R.
+
 ```
 
 ![Picture1](BCS_HelloWorld.png)
 
 
 ```r
-graphics.off()  # reset graphics
-require(rworldmap)  # load package for maps
-data("countryExData", envir = environment())  # load data to plot 
+require(rworldmap) # load package for maps
+data("countryExData", envir = environment()) # load data to plot 
 # plot worldmap with different colors
 mapCountryData(joinCountryData2Map(countryExData), nameColumnToPlot = "EPI_regions", catMethod = "categorical", mapTitle = "Hello World!!!", 
-    colourPalette = "rainbow", missingCountryCol = "lightgrey", addLegend = FALSE)
+               colourPalette = "rainbow", missingCountryCol = "lightgrey", addLegend = FALSE)
 ```
